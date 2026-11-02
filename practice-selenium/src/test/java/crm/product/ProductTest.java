@@ -38,7 +38,8 @@ public class ProductTest extends BaseClass{
 		String actualProductName= pip.getActualProductName().getText();
 		String actualProductCategory = pip.getActualProductCategory().getText();
 		String actualSalesStartDate = pip.getActualSalesStartDate().getText();
-		
+		System.out.println(saleStartDate);
+		System.out.println(actualSalesStartDate);
 		Assert.assertEquals(productName, actualProductName);
 		Assert.assertEquals(productCategory, actualProductCategory);
 		Assert.assertEquals(saleStartDate, actualSalesStartDate);

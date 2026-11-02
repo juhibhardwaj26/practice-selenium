@@ -17,7 +17,7 @@ public class ProductInfoPage {
 	@FindBy (id = "dtlview_Sales Start Date")
 	private WebElement actualSalesStartDate;
 	public WebElement getActualSalesStartDate() {
-		return actualProductName;
+		return actualSalesStartDate;
 	}
 	@FindBy (id = "dtlview_Product Category")
 	private WebElement actualProductCategory;
