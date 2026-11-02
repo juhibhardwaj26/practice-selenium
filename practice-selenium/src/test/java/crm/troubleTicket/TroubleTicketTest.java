@@ -37,7 +37,7 @@ public class TroubleTicketTest extends BaseClass{
 		
 		TroubleTicketInfoPage ttip= new TroubleTicketInfoPage(driver);
 		String actualTicketTitle=ttip.getActualTicketTitle().getText();
-		Assert.assertEquals(ticketTitle, actualTicketTitle+123);
+		Assert.assertEquals(ticketTitle, actualTicketTitle);
 		
 		
 	}
